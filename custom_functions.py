@@ -1,8 +1,3 @@
-#comment 1
-#comment 2
-#comment 3
-#comment 4
-
 def hello():
   print("Hello World!")
 
@@ -32,3 +27,16 @@ def shortest_string(x,y):
     return x
   else:
     return y
+
+#module 6 quiz
+def min(x,y):
+  if x <= y:
+    return x
+  else:
+    return y
+
+def sum(x):
+  res = 0
+  for i in range(x):
+    res += I
+  return res
