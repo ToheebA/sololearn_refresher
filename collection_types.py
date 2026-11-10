@@ -1,3 +1,9 @@
 #tuples
-color = ["red", "yellow", "blue"]
+colors = ["red", "yellow", "blue"]
 print(color[1])
+
+colors = ["yellow", "red", "blue"]
+print("Original list:")
+print(colors)
+
+#making changes
