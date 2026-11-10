@@ -7,3 +7,6 @@ print("Original list:")
 print(colors)
 
 #making changes
+
+
+b_day = (21, "May", 2024)
