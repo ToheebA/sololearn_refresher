@@ -1,3 +1,5 @@
+#comment1
+
 #tuples
 colors = ["red", "yellow", "blue"]
 print(color[1])
