@@ -45,3 +45,28 @@ scores = (98, 96, 95, 87, 94)
 winner, *rest = scores
 print(winner)
 print(rest)
+
+#dictionaries
+contact = {
+  "name" : "John",
+  "number" : 0817771881
+}
+
+car = {
+  "brand" : "audi",
+  "model" : "Q5"
+}
+
+app_settings = {
+  "dark mode" : True
+}
+
+contact = {
+  "name" : "John",
+  "company" : "Google"
+}
+print(contact[company])
+contact.get(company)
+info_keys = contact.keys()
+info_values = contact.values()
+info = contact.items()
