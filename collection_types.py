@@ -72,3 +72,33 @@ contact.get(company)
 info_keys = contact.keys()
 info_values = contact.values()
 info = contact.items()
+
+user = {
+  "Name":"Albert",
+  "Age":29
+}
+user["Age"] = 30
+
+print(user["Age"])
+
+student["faculty"] = "Arts"
+
+car.update({"Color": "red"})
+
+car = {
+  "Brand": "Ford",
+  "Model": "Mustang",
+  "Color": "red"
+}
+car.update({"Color": "blue",
+"Year": 2018})
+
+results.pop("Math")
+
+"red" in car.values()
+
+for i in student:
+  print(i)
+
+for i in car.values():
+  print(i)
