@@ -102,3 +102,20 @@ for i in student:
 
 for i in car.values():
   print(i)
+
+
+#list comprehension
+
+nums = [x for x in range(1,51)]
+print(nums)
+
+doubled_nums = [x*2 for x in range(10)]
+print(doubled_nums)
+
+tags = ["travel", "vacation", "journey"]
+hashtags = ["#" + x for x in tags]
+print(hashtags)
+
+users = ["Brandon", "Emma", "Brian", "Sophia", "Bella", "Ethan", "Ava", "Benjamin", "Mia", "Chloe"]
+group = [x for x in users if x[0] == "B"]
+print(group)
