@@ -68,3 +68,29 @@ try:
   print(coffees[choice])
 except IndexError:
   print("Choose 0, 1 or 2")
+
+#finally statement
+try:
+  print(len(3745))
+except:
+  print("Error")
+finally:
+  print("Save")
+
+#else statement
+products = ["Milk", "Bread", "Pastrami"]
+try:
+  count = len(products)
+except:
+  print("Error")
+else:
+  print("Count of products:", count)
+
+#raise statement
+price = 995
+if price > 500:
+  raise ValueError
+
+temp = -15
+if temp > 50 or temp < -10:
+  raise ValueError("Invalid range")
