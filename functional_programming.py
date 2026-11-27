@@ -41,3 +41,16 @@ tripler = mult(3)
 a = 2
 double_a = doubler(a)
 triple_a = tripler(a)
+
+
+
+#map and filter
+prices = [25.99, 34.99, 27.99, 37.99, 32.99]
+def discount(price):
+  discounted_price = price*0.9
+  return discounted_price
+discounted_prices = list(map(discount, prices))
+
+map(lambda x: x+5, scores)
+
+filter(lambda price: price > 90, prices)
