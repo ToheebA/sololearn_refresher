@@ -54,3 +54,24 @@ discounted_prices = list(map(discount, prices))
 map(lambda x: x+5, scores)
 
 filter(lambda price: price > 90, prices)
+
+
+#args and kwargs
+def total(numbers):
+  result = 0
+  for i in numbers:
+    result += i
+  return result
+
+def total(*args):
+  result = 0
+  for arg in args:
+    result += arg
+  return result
+print(total(1,2,3,4,5)
+
+def show_items(category, *items):
+  print("Category: ", category)
+  for item in items:
+    print item
+show_items("Electronics", "Laptop", "Smartphone")
