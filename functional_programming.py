@@ -68,8 +68,7 @@ def total(*args):
   for arg in args:
     result += arg
   return result
-
-print(total(1,2,3,4,5)
+print(total(1,2,3,4,5))
 
 def show_items(category, *items):
   print("Category: ", category)
